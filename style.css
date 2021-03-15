@@ -1,0 +1,155 @@
+/* General rules */
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Roboto, sans-serif;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+ul li {
+    list-style: none;
+}
+
+
+/* Header st */
+
+
+/* general header rules */
+
+.mainContainer header {
+    background-color: #172035;
+    color: white;
+    position: relative;
+}
+
+
+/* To separtae the logo and the nav list */
+
+.mainContainer header .navBarContainer {
+    padding: 20px 80px;
+    display: flex;
+}
+
+.mainContainer header .navBarContainer .logo {
+    margin-left: 30px;
+    margin-top: 20px;
+    height: 100%;
+}
+
+.mainContainer header .navBarContainer .navigation ul {
+    position: absolute;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    margin-left: 90px;
+    margin-top: 0;
+    align-items: center;
+    text-align: center;
+}
+
+.mainContainer header .navBarContainer .navigation ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px 40px 35px 40px;
+    list-style: none;
+    cursor: pointer;
+}
+
+.mainContainer header .navBarContainer .navigation ul :hover {
+    background-color: #09568d;
+}
+
+
+/* Header ed */
+
+
+/* Main Body st */
+
+.mainContainer main {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.mainContainer main h1 {
+    font-size: 3.6rem;
+    font-weight: bolder;
+}
+
+.mainContainer main .itemListContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.mainContainer main .itemListContainer ul li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.mainContainer main .itemListContainer ul li h2 {
+    margin-top: 20px;
+    font-weight: bolder;
+}
+
+.mainContainer main .itemListContainer ul li p {
+    font-weight: bold;
+}
+
+.mainContainer main .itemListContainer ul li button {
+    color: white;
+    background-color: #172035;
+    margin-top: 20px;
+    padding: 5px 30px;
+    font-size: 1.9rem;
+    font-weight: bolder;
+    cursor: pointer;
+    outline: none;
+}
+
+
+/* Main Body ed */
+
+
+/* Footer st */
+
+.mainContainer footer {
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    background-color: #172035;
+    bottom: 0;
+}
+
+.mainContainer footer .footerWrapper {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 90px;
+}
+
+.mainContainer footer .footerWrapper :not(img) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.mainContainer footer .footerWrapper h5 {
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-left: 450px;
+}
+
+
+/* Footer ed */
